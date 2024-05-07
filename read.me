@@ -1,0 +1,15 @@
+
+This project is our attempt to understand how to work with the API and hopsworks. 
+
+We started by preparing the skeleton of our project (see file model.ipynb). In this file we managed to load the istorical data as well as data from API. We managed to create sequences that allowed us to train LSTM model that was pretty accurate. 
+Then we started working on the pipelines: 
+- feature pipelines
+- model training pipeline 
+- prediction pipeline 
+
+While working on the model-training-pipeline, we failed to use lstm model due to issues with creating sequences. Therefore, we decided to continue with RandomForrest.
+While making predictions from API, our model failed to predict the correct class (even though its accuracy is around 95%). We suspect it's due to the change of z reading (maybe due to temsome external factor- might be checked for semester project)
+
+The main limitation and actual trouble with this project was having access to the free funtionality of hopswork which limited our way of working (errors connected with storage limits and more).
+
+In general, we are aware that the project is still lacking but we hope to work on it further for the purpose of semester project.
